@@ -12,7 +12,7 @@ OBJS=$(SRCS:.c=.o)
 all: $(BIN)
 
 $(BIN): $(SRCS)
-        $(CC) $(CFLAGS) $(SRCS) -o $(BIN)
+	$(CC) $(CFLAGS) $(SRCS) -o $(BIN)
 
 clean:
-        rm -f $(BIN)
+	rm -f $(BIN)
